@@ -18,37 +18,25 @@ class App extends React.Component {
    }
 }
 
-export class Home extends React.Component {
-   render() {
-      return (
-         <div>
-            <App />
-            <h1>Home...</h1>
-         </div>
-      )
-   }
-}
+export const Home = () =>
+<div>
+  <App />
+  <h1>Home...</h1>
+</div>
+;
 
-export class About extends React.Component {
-   render() {
-      return (
-         <div>
-            <App />
-            <h1>About...</h1>
-         </div>
-      )
-   }
-}
+export const About = () =>
+  <div>
+    <App />
+    <h1>About...</h1>
+  </div>
+;
 
-export class Contact extends React.Component {
-   render() {
-      return (
-         <div>
-            <App />
-            <h1>Contact...</h1>
-         </div>
-      )
-   }
-}
+export const Contact = () =>
+<div>
+  <App />
+  <h1>Contact...</h1>
+</div>
+;
 
 export default App;
